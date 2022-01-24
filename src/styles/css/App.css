@@ -1,0 +1,121 @@
+:root{
+  --purple1: #5A00EA;
+  --purple2: #6757AC;
+  --dark: #505050;
+  --pink: #D95ECB;
+  --blue: #597AEF;
+  --yellow: #FFB82C;
+  --gray: #7C7C7C;
+  --white: #E6E6E6;
+}
+
+
+
+*{
+
+  
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  padding: 50px;
+}
+
+
+
+
+.widget-header{
+  position: relative;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://images.unsplash.com/photo-1563668454696-170e01768e54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 300px;
+  margin: auto;
+  padding: 30px;
+  max-width: 650px;
+  color: var(--white);
+
+ 
+}
+
+.widget-header__container{
+  display: flex;
+  justify-content: space-between;
+ 
+ 
+}
+.widget-headquarter{
+    
+    align-items: center;
+    background-color: var(--purple1);
+    border-radius: 30px;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 18px;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+    width: 90px;
+  
+    
+
+   
+}
+.widget-icon{
+  position: absolute;
+  color:  var( --yellow);
+  font-size: 10rem;
+  right: 30px;
+  top: -45px;
+ 
+}
+
+.widget-body{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100px;
+}
+.widget-body__temp{
+  font-size: 4rem;
+  font-weight: 300;
+
+}
+.widget-body__container {
+
+  width: 100px;
+  height: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.color-1{
+  color: var(--pink);
+}
+.color-2{
+  color: var(--blue);
+}
+.widget-footer{
+  font-size: 5rem;
+  font-weight: normal;
+  
+}
+.widget-footer_primary{
+  font-weight: 400;
+}
+.widget-footer_second{
+  font-size: 4rem;
+  font-weight: bold;
+}
